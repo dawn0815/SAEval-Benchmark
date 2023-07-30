@@ -20,7 +20,7 @@ Comment analysis (CA) involves identifying the user's emotion from one or more s
 Limitted by the license of the original datasets, we are unable to provide the original datas. Note that you need to obtain a license to download the raw data before downloading the formatted data we provide. The link to download the formatted data will be updated soon!
 
 ## Evaluating your system
-For evaluating your system, you simply need an individual predictions file for each of the dataset. 
+For evaluating your system, you simply need an individual predictions file for each of the dataset. We encourage researchers to add more baseline datasets into SAEval and promote the development of multi-task unified modeling for sentiment analysis.
 
 ## Citing SAEval
 If you use SAEval in your research, please use the following `bib` entry to cite the paper (paper link is coming soon).
