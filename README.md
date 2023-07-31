@@ -31,7 +31,7 @@ SAEval is released without any restrictions but restrictions may apply to indivi
 
 ## Citing Original datasets
 
-If you use any of the TweetEval datasets, please cite their original publications:
+If you use any of the SAEval datasets, please cite their original publications:
 
 #### ERC:
 ```
