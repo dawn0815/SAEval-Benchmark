@@ -24,7 +24,9 @@ Aspect-based sentiment analysis (ABSA) is a task that aims to identify the senti
 ### CA
 Comment analysis (CA) involves identifying the user's emotion from one or more sentences in a comment. [SST-2](https://nlp.stanford.edu/sentiment/), [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), and [AmazonReview](https://nijianmo.github.io/amazon/index.html) are datasets for comment analysis.  The goal of SAEval for these datasets is to identify the sentiment polarity of comments. **It is important to note that AmazonReview is only used for the pre-training and does not have a test set for evaluation in SAEval.**
 
-## Download Formatted Data
+## Formatted Data
+All datasets are unified and stored in a dictionary format. The dictionary includes keywords, such as ``Task Type'', ``Dataset ID'', ``Text'', ``Audio'', and ``Image''. For ERC datasets, additional information such as ``Context'', ``Speaker ID'', and ``Utterance index'' are included to determine the conversation information of the current query.
+
 Here are some examples of formatted data, with all datasets processed based on the same rules.
 
 ![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p3.png)
