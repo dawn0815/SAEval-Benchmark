@@ -9,7 +9,7 @@ class TaskType:
     COMMENT = 'comment'
 
 text_path='./amazon/amazon_train.csv'
-save_path='/mnt/workspace/unimer/datas/amazon_pretrain.pkl'
+save_path='save_path_for_formatted_data'
 data_new=[]
 text=[]
 label=[]
