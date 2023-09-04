@@ -53,7 +53,7 @@ SAEval is released without any restrictions but restrictions may apply to indivi
 
 If you use any of the SAEval datasets, please cite their original publications:
 
-#### ERC:
+#### MELD:
 ```
 @inproceedings{poria2019meld,
   title={MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversations},
@@ -62,9 +62,8 @@ If you use any of the SAEval datasets, please cite their original publications:
   pages={527--536},
   year={2019}
 }
-
 ```
-
+#### IEMOCAP:
 ```
 @article{busso2008iemocap,
   title={IEMOCAP: Interactive emotional dyadic motion capture database},
@@ -75,8 +74,8 @@ If you use any of the SAEval datasets, please cite their original publications:
   year={2008},
   publisher={Springer}
 }
-
 ```
+#### DailyDialog:
 ```
 @article{li2017dailydialog,
   title={Dailydialog: A manually labelled multi-turn dialogue dataset},
@@ -84,8 +83,8 @@ If you use any of the SAEval datasets, please cite their original publications:
   journal={arXiv:1710.03957},
   year={2017}
 }
-
 ```
+#### EmoWoz:
 ```
 @inproceedings{feng2022emowoz,
   title={EmoWOZ: A Large-Scale Corpus and Labelling Scheme for Emotion Recognition in Task-Oriented Dialogue Systems},
@@ -94,8 +93,8 @@ If you use any of the SAEval datasets, please cite their original publications:
   pages={4096--4113},
   year={2022}
 }
-
 ```
+#### EmoryNLP:
 ```
 @article{zahiri2017emotion,
   title={Emotion detection on tv show transcripts with sequence-based convolutional neural networks},
@@ -104,7 +103,8 @@ If you use any of the SAEval datasets, please cite their original publications:
   year={2017}
 }
 ```
-#### MSA:
+
+#### MOSI:
 ```
 @article{zadeh2016mosi,
   title={Mosi: multimodal corpus of sentiment intensity and subjectivity analysis in online opinion videos},
@@ -113,6 +113,7 @@ If you use any of the SAEval datasets, please cite their original publications:
   year={2016}
 }
 ```
+#### MOSEI:
 ```
 @inproceedings{zadeh2018multimodal,
   title={Multimodal language analysis in the wild: Cmu-mosei dataset and interpretable dynamic fusion graph},
@@ -123,7 +124,7 @@ If you use any of the SAEval datasets, please cite their original publications:
 }
 ```
 
-#### ABSA:
+#### SemEval-2014:
 ```
 @inproceedings{pontiki-etal-2014-semeval,
     title = "{S}em{E}val-2014 Task 4: Aspect Based Sentiment Analysis",
@@ -142,6 +143,7 @@ If you use any of the SAEval datasets, please cite their original publications:
     pages = "27--35",
 }
 ```
+#### SemEval-2016:
 ```
 @inproceedings{pontiki2016semeval,
   title={Semeval-2016 task 5: Aspect based sentiment analysis},
@@ -153,7 +155,7 @@ If you use any of the SAEval datasets, please cite their original publications:
 }
 ```
 
-#### CA:
+#### IMDB:
 ```
 @InProceedings{imdb,
   author    = {Maas, Andrew L.  and  Daly, Raymond E.  and  Pham, Peter T.  and  Huang, Dan  and  Ng, Andrew Y.  and  Potts, Christopher},
@@ -166,6 +168,7 @@ If you use any of the SAEval datasets, please cite their original publications:
   pages     = {142--150},
 }
 ```
+#### SST-2:
 ```
 @inproceedings{socher2013recursive,
   title={Recursive deep models for semantic compositionality over a sentiment treebank},
@@ -175,6 +178,7 @@ If you use any of the SAEval datasets, please cite their original publications:
   year={2013}
 }
 ```
+#### AmazonReview:
 ```
 @inproceedings{ni2019justifying,
   title={Justifying recommendations using distantly-labeled reviews and fine-grained aspects},
