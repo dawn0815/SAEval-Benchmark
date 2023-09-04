@@ -13,7 +13,7 @@ label_dic={
 path1 = './lap14_valid.xml'
 path2 = './res14_valid.xml'
 
-save_path='/mnt/workspace/unimer/datas/absa14_val.pkl'
+save_path='save_path_for_formatted_data'
 data_new=[]
 
 tree = ET.parse(path1)
