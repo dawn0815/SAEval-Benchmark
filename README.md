@@ -4,6 +4,8 @@ The SAEval is a benchmark for sentiment analysis to evaluate the model's perform
 ## SAEval: The Benchmark
 SAEval consists of four types of sentiment analysis tasks: emotion recognition in conversation (ERC), multimodal sentiment analysis (MSA), aspect-based sentiment analysis (ABSA), and comment analysis (CA), with a total of 12 datasets constituting it. The figure below shows the statistics of our SAEval benchmark, where T, A, and V represent text, acoustic, and visual, respectively.
 
+![image](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p1.png)
+
 ### ERC
 Emotion recognition in conversation aims to identify the speaker's emotion from multiple utterances in a conversation. IEMOCAP and MELD are both multimodal datasets. EmoryNLP, DailyDialog, and EmoWOZ are textual datasets. The SAEval benchmark uses these datasets to identify the emotion category of each utterance based on the multimodal information (if available) and context available.
 
