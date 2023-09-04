@@ -37,7 +37,7 @@ For evaluating your system, you simply need an individual predictions file for t
 
 ![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p5.png)
 
-We encourage researchers to add more baseline datasets into SAEval and promote the development of multi-task unified modeling for sentiment analysis.
+We encourage more researchers to join the study on multi-tasks unified modeling for sentiment analysis, and contribute their wisdom to build sentiment intelligence.
 
 ## Citing SAEval
 If you use SAEval in your research, please use the following `bib` entry to cite the paper (paper link is coming soon).
