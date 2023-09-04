@@ -29,7 +29,8 @@ Here are some examples of formatted data, with all datasets processed based on t
 
 ![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p4.png)
 
-Limitted by the license of the original datasets, we are unable to provide the original datas. Note that you need to obtain a license to download the raw data before downloading the formatted data we provide. The link to download the formatted data will be updated soon!
+Limitted by the license of the original datasets, we are unable to provide the original datas. You can get the license and download the original datasets, then process datas using scripts (process_{name_of_dataset}.py) we provided. 
+**Note that you need to obtain a license to download the raw data before downloading the formatted data we provide.** The link to download the formatted data will be updated soon!
 
 ## Evaluating your system
 For evaluating your system, you simply need an individual predictions file for each of the dataset. We encourage researchers to add more baseline datasets into SAEval and promote the development of multi-task unified modeling for sentiment analysis.
