@@ -11,7 +11,7 @@ label_dic={
 }
 data_path="./res16_val.json"
 
-save_path='/mnt/workspace/unimer/datas/absa16_val.pkl'
+save_path='save_path_for_formatted_data'
 data_new=[]
 texts=[]
 labels=[]
