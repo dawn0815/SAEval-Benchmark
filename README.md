@@ -1,5 +1,5 @@
 # SAEval-Benchmark
-The SAEval is a benchmark for sentiment analysis to evaluate the model's performance on various subtasks. All datasets have been unified into the same benchmark, with each dataset presented in the same format and with fixed training, validation and test splits.
+The SAEval is a benchmark for sentiment analysis to evaluate the model's performance on various subtasks. All datasets have been unified into the same format and with fixed training, validation and test splits.
 
 ## SAEval: The Benchmark
 SAEval consists of four types of sentiment analysis tasks: emotion recognition in conversation (ERC), multimodal sentiment analysis (MSA), aspect-based sentiment analysis (ABSA), and comment analysis (CA), with a total of 12 datasets constituting it. The figure below shows the statistics of our SAEval benchmark, where T, A, and V represent text, acoustic, and visual, respectively.
