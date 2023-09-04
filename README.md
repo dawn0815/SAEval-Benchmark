@@ -4,7 +4,7 @@ The SAEval is a benchmark for sentiment analysis to evaluate the model's perform
 ## SAEval: The Benchmark
 In order to study the differences and connections between the various sub-tasks of sentiment analysis, we reorganize the sentiment analysis subtasks into two categories, namely main tasks and downstream tasks, based on their relevance to sentiment. As shown in Figure below, the main tasks, which are the subtasks most correlated with human emotional representation, include emotion recognition in conversation (ERC), multimodal sentiment analysis (MSA), aspect-based sentiment analysis (ABSA), and comment analysis (CA). Downstream tasks include tasks related to sentiment analysis but not necessarily detecting human emotion categories, such as irony detection, humor detection, and emoji prediction.
 
-![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/f2.pdf)
+![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p2.png)
 
 In this project, we compose four main tasks into a new sentiment analysis benchmark, SAEval, with a total of 12 datasets constituting it. The figure below shows the statistics of our SAEval benchmark, where T, A, and V represent text, acoustic, and visual, respectively.
 
