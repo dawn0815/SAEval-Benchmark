@@ -46,6 +46,14 @@ We encourage more researchers to join the study on multi-tasks unified modeling 
 
 ## Citing SAEval
 If you use SAEval in your research, please use the following `bib` entry to cite the paper (paper link is coming soon).
+```
+@inproceedings{li2023unisa,
+  title={UniSA: Unified Generative Framework for Sentiment Analysis},
+  author={Zaijing Li, Ting-En Lin, Yuchuan Wu, Meng Liu, Fengxiao Tang, Ming Zhao, and Yongbin Li},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  year={2023}
+}
+```
 
 ## License
 SAEval is released without any restrictions but restrictions may apply to individual tasks (which are derived from existing datasets). We refer users to the original licenses accompanying each dataset.
