@@ -10,7 +10,7 @@ class TaskType:
 
 
 text_path='./dailydialog/dailydia_data_valid.csv'
-save_path='/mnt/workspace/unimer/datas/daily_val.pkl'
+save_path='save_path_for_formatted_data'
 data_new=[]
 
 df_train=pd.read_csv(text_path,lineterminator="\n")
