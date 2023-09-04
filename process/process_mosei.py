@@ -10,7 +10,7 @@ class TaskType:
 
 data_path='./mosei_data_0610.pkl'
 text_path='./mosei/train.tsv'
-save_path='/mnt/workspace/unimer/datas/mosei_pretrain.pkl'
+save_path='save_path_for_formatted_data'
 #data for pretraining
 data_new=[]
 text=[]
