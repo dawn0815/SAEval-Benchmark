@@ -23,6 +23,12 @@ Aspect-based sentiment analysis (ABSA) is a task that aims to identify the senti
 Comment analysis (CA) involves identifying the user's emotion from one or more sentences in a comment. SST-2, IMDB, and Amazon Review are datasets for comment analysis.  The goal of SAEval for these datasets is to identify the sentiment polarity of comments. It is important to note that Amazon Review is only used for the pre-training and does not have a test set for evaluation in SAEval.
 
 ## Download Formatted Data
+Here are some examples of formatted data, with all datasets processed based on the same rules.
+
+![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p3.png)
+
+![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p4.png)
+
 Limitted by the license of the original datasets, we are unable to provide the original datas. Note that you need to obtain a license to download the raw data before downloading the formatted data we provide. The link to download the formatted data will be updated soon!
 
 ## Evaluating your system
