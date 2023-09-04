@@ -10,7 +10,7 @@ class TaskType:
 
 
 text_path='./EmoWoz/emowoz_data_train.csv'
-save_path='/mnt/workspace/unimer/datas/emowoz_pretrain.pkl'
+save_path='save_path_for_formatted_data'
 data_new=[]
 text=[]
 label=[]
