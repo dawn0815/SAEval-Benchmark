@@ -11,16 +11,16 @@ In this project, we compose four main tasks into a new sentiment analysis benchm
 ![image](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p1.png)
 
 ### ERC
-Emotion recognition in conversation aims to identify the speaker's emotion from multiple utterances in a conversation. IEMOCAP and MELD are both multimodal datasets. EmoryNLP, DailyDialog, and EmoWOZ are textual datasets. The SAEval benchmark uses these datasets to identify the emotion category of each utterance based on the multimodal information (if available) and context available.
+Emotion recognition in conversation (ERC) aims to identify the speaker's emotion from multiple utterances in a conversation. [IEMOCAP](https://sail.usc.edu/iemocap/) and [MELD](https://github.com/declare-lab/MELD) are both multimodal datasets. [EmoryNLP](https://github.com/emorynlp/character-mining), [DailyDialog](http://yanran.li/dailydialog), and [EmoWOZ](https://zenodo.org/record/6506504) are textual datasets. The SAEval benchmark uses these datasets to identify the emotion category of each utterance based on the multimodal information (if available) and context available.
 
 ### MSA
-Multimodal sentiment analysis (MSA) involves identifying the speaker's emotion from a single-turn utterance by considering multiple modalities. MOSI and MOSEI are two widely used multimodal sentiment analysis datasets. The goal of SAEval for these two datasets is to predict the sentiment score, which is a continuous value ranging from -3 to +3, of single-turn utterances by incorporating multiple modalities. 
+Multimodal sentiment analysis (MSA) involves identifying the speaker's emotion from a single-turn utterance by considering multiple modalities. [MOSI](http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/) and [MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/) are two widely used multimodal sentiment analysis datasets. The goal of SAEval for these two datasets is to predict the sentiment score, which is a continuous value ranging from -3 to +3, of single-turn utterances by incorporating multiple modalities. 
 
 ### ABSA
-Aspect-based sentiment analysis (ABSA) is a task that aims to identify the sentiment polarity associated with aspect terms in a single-turn utterance. SemEval-2014 and SemEval-2016 are subtasks of the Semeval Aspect-based Sentiment Analysis challenge. The goal of these subtasks is to identify the sentiment polarity (positive, negative, neutral, conflict) corresponding to all attribute words contained in each sentence. 
+Aspect-based sentiment analysis (ABSA) is a task that aims to identify the sentiment polarity associated with aspect terms in a single-turn utterance. [SemEval-2014](https://alt.qcri.org/semeval2014/task4/#) and [SemEval-2016](https://alt.qcri.org/semeval2016/) are subtasks of the Semeval Aspect-based Sentiment Analysis challenge. The goal of these subtasks is to identify the sentiment polarity (positive, negative, neutral, conflict) corresponding to all attribute words contained in each sentence. 
 
 ### CA
-Comment analysis (CA) involves identifying the user's emotion from one or more sentences in a comment. SST-2, IMDB, and Amazon Review are datasets for comment analysis.  The goal of SAEval for these datasets is to identify the sentiment polarity of comments. It is important to note that Amazon Review is only used for the pre-training and does not have a test set for evaluation in SAEval.
+Comment analysis (CA) involves identifying the user's emotion from one or more sentences in a comment. [SST-2](https://nlp.stanford.edu/sentiment/), [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), and [AmazonReview](https://nijianmo.github.io/amazon/index.html) are datasets for comment analysis.  The goal of SAEval for these datasets is to identify the sentiment polarity of comments. **It is important to note that AmazonReview is only used for the pre-training and does not have a test set for evaluation in SAEval.**
 
 ## Download Formatted Data
 Here are some examples of formatted data, with all datasets processed based on the same rules.
