@@ -9,7 +9,7 @@ class TaskType:
 
 data_path='./iemocap_data_0610.pkl'
 text_path='./iemocap_data_train.csv'
-save_path='/mnt/workspace/unimer/datas/iemocap_pretrain.pkl'
+save_path='save_path_for_formatted_data'
 data_new=[]
 label_sets={
     'fru':'frustrate',
