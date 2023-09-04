@@ -10,7 +10,7 @@ class TaskType:
 
 
 text_path='./emory/emory_data_train.csv'
-save_path='/mnt/workspace/unimer/datas/emory_pretrain.pkl'
+save_path='save_path_for_formatted_data'
 data_new=[]
 
 df_train=pd.read_csv(text_path,lineterminator="\n")
