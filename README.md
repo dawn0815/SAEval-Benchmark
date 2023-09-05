@@ -1,7 +1,7 @@
 # SAEval-Benchmark
 
 <div align="center">
-<font size=5><strong>Zaijing Li, Ting-En Lin, Yuchuan Wu, Meng Liu, Fengxiao Tang†, Ming Zhao†, Yongbin Li† </strong></font>
+<font size=10><strong>Zaijing Li, Ting-En Lin, Yuchuan Wu, Meng Liu, Fengxiao Tang†, Ming Zhao†, Yongbin Li† </strong></font>
 </div>
 <div align="center">
 <strong>Central South University, Alibaba Group</strong>
