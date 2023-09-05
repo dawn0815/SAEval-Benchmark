@@ -57,7 +57,7 @@ Limitted by the license of the original datasets, you should get the license and
    
 **You need to modify the dataset path to get training set, validation set, and test set file of each dataset**
 
-Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can download the multimodal features of [MOSI](http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/), [MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/), [IEMOCAP](https://sail.usc.edu/iemocap/) and [MELD](https://github.com/declare-lab/MELD) according to this [link](https://github.com/LeMei/UniMSE).
+Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can download the multimodal features of [MOSI](http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/), [MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/), [IEMOCAP](https://sail.usc.edu/iemocap/) and [MELD](https://github.com/declare-lab/MELD), according to this [link](https://github.com/LeMei/UniMSE).
 
 2. datasets for pretrain-stage-1
    
