@@ -10,7 +10,7 @@
 † Corresponding Author
 </div>
 
-[[Paper]](https://github.com/dawn0815/SAEval-Benchmark)   [[Codes]](https://github.com/dawn0815/UniSA)
+<center>[[Paper]](https://github.com/dawn0815/SAEval-Benchmark)   [[Codes]](https://github.com/dawn0815/UniSA)</center>
 
 The SAEval is a benchmark for sentiment analysis to evaluate the model's performance on various subtasks. All datasets were standardized to the same format and divided into training, validation and test sets.
 
