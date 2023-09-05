@@ -50,17 +50,23 @@ Here are some examples of formatted data, with all datasets processed based on t
 Limitted by the license of the original datasets, you should get the license and download the original datasets, then process datas using scripts (process_{name_of_dataset}.py) we provided. 
 
 1. datasets for pretrain-stage-2/fine-tune
+   
    ```
     python process_{dataset_name}.py
    ```
+   
+**You need to modify the dataset path to get training set, validation set, and test set file of each dataset**
+
+Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can download the multimodal features of [MOSI](http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/), [MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/), [IEMOCAP](https://sail.usc.edu/iemocap/) and [MELD](https://github.com/declare-lab/MELD) according to this [link](https://github.com/LeMei/UniMSE).
+
 2. datasets for pretrain-stage-1
+   
    ```
     python process_concat.py
    ```
 
-**You need to modify the dataset path to get training set, validation set, and test set file of each dataset**
-
 ### download
+
 **Note that you need to obtain a license to download the raw data before downloading the formatted data we provide.** The link to download the formatted data will be updated soon!
 
 ## Evaluating Your System
