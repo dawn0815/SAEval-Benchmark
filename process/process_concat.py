@@ -1,7 +1,7 @@
 """
 it is an example for how to get the concat_dataset.
 before that, you need to process orignal datasets: delete the data which labels not in [positive,negative,neutral]
-and, you should process orignal AmazonReview_all dataset
+and, you should obtain process orignal AmazonReview_all dataset, According to this link: https://nijianmo.github.io/amazon/index.html
 """
 
 import pickle
