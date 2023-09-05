@@ -1,6 +1,14 @@
 # SAEval-Benchmark
 
-#### **Zaijing Li**, **Ting-En Lin**, **Yuchuan Wu**, **Meng Liu**, **Fengxiao Tang**, **Ming Zhao**, **Yongbin Li**  
+<div align="center">
+<strong>Zaijing Li, Ting-En Lin, Yuchuan Wu, Meng Liu, Fengxiao Tang†, Ming Zhao†, Yongbin Li† </strong> 
+</div>
+<div align="center">
+<strong>Central South University, Alibaba Group</strong>
+</div>
+<div align="center">
+† Corresponding Author
+</div>
 
 [[Paper]](https://github.com/dawn0815/SAEval-Benchmark)   [[Codes]](https://github.com/dawn0815/UniSA)
 
