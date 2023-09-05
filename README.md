@@ -46,7 +46,7 @@ Here are some examples of formatted data, with all datasets processed based on t
 
 ![image](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p4.png)
 
-### process
+### Process
 Limitted by the license of the original datasets, you should get the license and download the original datasets, then process datas using scripts (process_{name_of_dataset}.py) we provided. 
 
 1. datasets for pretrain-stage-2/fine-tune
@@ -65,7 +65,7 @@ Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can
     python process_concat.py
    ```
 
-### download
+### Download
 
 **Note that you need to obtain a license to download the raw data before downloading the formatted data we provide.** The link to download the formatted data will be updated soon!
 
