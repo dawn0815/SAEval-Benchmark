@@ -4,7 +4,7 @@
 <strong>Zaijing Li, Ting-En Lin, Yuchuan Wu, Meng Liu, Fengxiao Tang†, Ming Zhao†, Yongbin Li† </strong>
 </div>
 <div align="center">
-<strong>Central South University, Alibaba Group</strong>
+Central South University, Alibaba Group
 </div>
 <div align="center">
 † Corresponding Author
