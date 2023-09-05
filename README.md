@@ -10,7 +10,7 @@
 † Corresponding Author
 </div>
 
-<center> 
+<center>
 [Paper](https://github.com/dawn0815/SAEval-Benchmark)
 </center>
 
