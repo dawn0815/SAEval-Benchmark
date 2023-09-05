@@ -11,7 +11,7 @@ In order to study the differences and connections between the various sub-tasks 
 
 As shown in Figure below, the main tasks, which are the subtasks most correlated with human emotional representation, including **emotion recognition in conversation (ERC)**, **multimodal sentiment analysis (MSA)**, **aspect-based sentiment analysis (ABSA)**, and **comment analysis (CA)**. Downstream tasks include tasks related to sentiment analysis but not necessarily detecting human emotion categories, such as **irony detection**, **humor detection**, and **emoji prediction**.
 
-![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p2.png)
+![image](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p2.png)
 
 In this project, we compose four main tasks into a new sentiment analysis benchmark, SAEval, with a total of 12 datasets constituting it. The figure below shows the statistics of our SAEval benchmark, where T, A, and V represent text, acoustic, and visual, respectively.
 
@@ -34,9 +34,9 @@ All datasets are unified and stored in a dictionary format. The dictionary inclu
 
 Here are some examples of formatted data, with all datasets processed based on the same rules.
 
-![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p3.png)
+![image](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p3.png)
 
-![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p4.png)
+![image](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p4.png)
 
 Limitted by the license of the original datasets, we are unable to provide the original datas. You can get the license and download the original datasets, then process datas using scripts (process_{name_of_dataset}.py) we provided. 
 
@@ -45,7 +45,7 @@ Limitted by the license of the original datasets, we are unable to provide the o
 ## Evaluating Your System
 For evaluating your system, you just need an individual predictions file for the benchmark. Here are the experimental results of [UniSA](https://github.com/dawn0815/UniSA), the first baseline for unified molding of sentiment analysis, on SAEval compared to SOTA models of various subtasks.
 
-![pdf](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p5.png)
+![image](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p5.png)
 
 We encourage more researchers to join the study on multi-tasks unified modeling for sentiment analysis, and contribute their wisdom to build sentiment intelligence.
 
