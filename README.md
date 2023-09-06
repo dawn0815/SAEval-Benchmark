@@ -70,7 +70,7 @@ Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can
 **Note that you need to obtain a license to download the raw data before downloading the formatted data we provide.** The link to download the formatted data will be updated soon!
 
 ## Evaluating Your System
-For evaluating your system, you just need an individual predictions file for the benchmark. Here are the experimental results of [UniSA](https://github.com/dawn0815/UniSA), the first baseline for multi-tasks unified molding of sentiment analysis, on SAEval compared to SOTA models of various subtasks.
+For evaluating your system, you just need an individual predictions file for the benchmark. Here are the experimental results of [UniSA](https://arxiv.org/abs/2309.01339), the first baseline for multi-tasks unified molding of sentiment analysis, on SAEval compared to SOTA models of various subtasks.
 
 ![image](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p5.png)
 
