@@ -1,7 +1,7 @@
 """
-it is an example for how to get the concat_dataset.
-before that, you need to process orignal datasets: delete the data which labels not in [positive,negative,neutral]
-and, you should obtain process orignal AmazonReview_all dataset, According to this link: https://nijianmo.github.io/amazon/index.html
+it is an example for how to get the concat_dataset, which is used in pretrain-stage-1 in UniSA (https://arxiv.org/abs/2309.01339)
+before that, you need to process orignal datasets, add keywords "s_label", map original labels in [positive,negative,neutral].
+and, you should obtain and process orignal AmazonReview_all dataset, According to this link: https://nijianmo.github.io/amazon/index.html
 """
 
 import pickle
