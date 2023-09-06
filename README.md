@@ -77,7 +77,7 @@ For evaluating your system, you just need an individual predictions file for the
 We encourage more researchers to join the study on multi-tasks unified modeling for sentiment analysis, and contribute their wisdom to build sentiment intelligence.
 
 ## Citing SAEval
-If you use SAEval in your research, please use the following `bib` entry to cite the paper (paper link is coming soon).
+If you use SAEval in your research, please use the following `bib` entry to cite the paper.
 ```
 @inproceedings{li2023unisa,
   title={UniSA: Unified Generative Framework for Sentiment Analysis},
