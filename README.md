@@ -51,11 +51,6 @@ You can follow the steps below to process the datasets:
 1. Obtain a license for the original dataset
 2. Download and preprocess the raw dataset. Each dataset has a different format for the raw data, so you will need to extract the text, speakers, tags, and other information from the data in a specific way.
 3. Format the dataset. We recommend saving the preprocessed dataset as a csv file and then formatting all the datasets using the script we provide.
-   
-**You need to modify the dataset path to get training set, validation set, and test set file of each dataset**
-
-Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can download the multimodal features of [MOSI](http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/), [MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/), [IEMOCAP](https://sail.usc.edu/iemocap/) and [MELD](https://github.com/declare-lab/MELD), according to this [link](https://github.com/LeMei/UniMSE).
-
 #### datasets for pretrain-stage-1
    
    ```
@@ -66,6 +61,10 @@ Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can
    ```
     python process_{dataset}.py
    ```
+
+**You need to modify the dataset path to get training set, validation set, and test set file of each dataset**
+
+Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can download the multimodal features of [MOSI](http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/), [MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/), [IEMOCAP](https://sail.usc.edu/iemocap/) and [MELD](https://github.com/declare-lab/MELD), according to this [link](https://github.com/LeMei/UniMSE).
 
 ### Download
 Due to copyright restrictions, we will not provide formatted datasets at this time.
