@@ -47,27 +47,29 @@ Here are some examples of formatted data, with all datasets processed based on t
 ![image](https://github.com/dawn0815/SAEval-Benchmark/blob/master/p4.png)
 
 ### Process
-Limitted by the license of the original datasets, you should get the license and download the original datasets, then process datas using scripts (process_{name_of_dataset}.py) we provided. 
-
-1. datasets for pretrain-stage-2/fine-tune
-   
-   ```
-    python process_{dataset_name}.py
-   ```
+You can follow the steps below to process the datasets:
+1. Obtain a license for the original dataset
+2. Download and preprocess the raw dataset. Each dataset has a different format for the raw data, so you will need to extract the text, speakers, tags, and other information from the data in a specific way.
+3. Format the dataset. We recommend saving the preprocessed dataset as a csv file and then formatting all the datasets using the script we provide.
    
 **You need to modify the dataset path to get training set, validation set, and test set file of each dataset**
 
 Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can download the multimodal features of [MOSI](http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/), [MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/), [IEMOCAP](https://sail.usc.edu/iemocap/) and [MELD](https://github.com/declare-lab/MELD), according to this [link](https://github.com/LeMei/UniMSE).
 
-2. datasets for pretrain-stage-1
+#### datasets for pretrain-stage-1
    
    ```
     python process_concat.py
    ```
+#### datasets for pretrain-stage-2/finetune
+   
+   ```
+    python process_{dataset}.py
+   ```
 
 ### Download
-
-**Note that you need to obtain a license to download the raw data before downloading the formatted data we provide.** The link to download the formatted data will be updated soon!
+Due to copyright restrictions, we will not provide formatted datasets at this time.
+If you have problems with pre-processing the raw datasets, feel free to contact us.
 
 ## Evaluating Your System
 For evaluating your system, you just need an individual predictions file for the benchmark. Here are the experimental results of [UniSA](https://arxiv.org/abs/2309.01339), the first baseline for multi-tasks unified molding of sentiment analysis, on SAEval compared to SOTA models of various subtasks.
