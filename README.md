@@ -67,8 +67,9 @@ You can follow the steps below to process the datasets:
 Thanks [UniMSE](https://github.com/LeMei/UniMSE) for their contribution, you can download the multimodal features of [MOSI](http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/), [MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/), [IEMOCAP](https://sail.usc.edu/iemocap/) and [MELD](https://github.com/declare-lab/MELD), according to this [link](https://github.com/LeMei/UniMSE).
 
 ### Download
-Due to copyright restrictions, we will not provide formatted datasets at this time.
-If you have problems with pre-processing the raw datasets, feel free to contact us.
+Here we provide download link for some of the processed datasets. Please obtain licenses for the original datasets before downloading our processed data!
+
+[[Google Drive]](https://drive.google.com/file/d/1ih3oeW5tkaeDi3IIFAIM74a9Q9hvu7hM/view?usp=sharing)
 
 ## Evaluating Your System
 For evaluating your system, you just need an individual predictions file for the benchmark. Here are the experimental results of [UniSA](https://arxiv.org/abs/2309.01339), the first baseline for multi-tasks unified molding of sentiment analysis, on SAEval compared to SOTA models of various subtasks.
