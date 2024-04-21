@@ -71,6 +71,10 @@ Here we provide download link for some of the processed datasets. Please obtain 
 
 [[Google Drive]](https://drive.google.com/file/d/1ih3oeW5tkaeDi3IIFAIM74a9Q9hvu7hM/view?usp=sharing)
 
+If you need processed textual data for IEMOCAP, MELD, MOSI, and MOSEI, you can download it via the following link:
+
+[[Textual Data]](https://drive.google.com/file/d/1GwWJ7FxmcEwMBWI0ObHhYGqsH4IXIpso/view?usp=sharing)
+
 ## Evaluating Your System
 For evaluating your system, you just need an individual predictions file for the benchmark. Here are the experimental results of [UniSA](https://arxiv.org/abs/2309.01339), the first baseline for multi-tasks unified molding of sentiment analysis, on SAEval compared to SOTA models of various subtasks.
 
